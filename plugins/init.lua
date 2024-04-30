@@ -53,7 +53,7 @@ return {
 
   {
     "nvim-treesitter/nvim-treesitter",
-    opts = overrides.nvimtree,
+    opts = overrides.treesitter,
   },
 
   {
