@@ -43,6 +43,8 @@ M.mason = {
     "rust-analyzer",
     "clangd",
     "csharp-language-server",
+    "csharpier",
+    "clang-format",
     "gopls",
     "black",
     "isort",
@@ -51,7 +53,7 @@ M.mason = {
     "golangci-lint",
     "jdtls",
     "kotlin-language-server",
-    "ktlint"
+    "ktlint",
    }
 }
 
