@@ -22,7 +22,7 @@ local servers = {
   "prismals",
   "gopls",
   "csharp_ls",
-  "java_language_server",
+  "jdtls",
   "kotlin_language_server"
 }
 
