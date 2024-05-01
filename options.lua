@@ -7,3 +7,9 @@ require "nvchad.options"
 
 -- toggle transparency
 -- require("base46").toggle_transparency()
+
+-- Set tab size to 4 in java, c# files
+vim.api.nvim_create_autocmd({ "BufNewFile", "BufRead" }, {
+  pattern = { "*.java", "*.kt", "*.cs" },
+  command = "setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4",
+})
