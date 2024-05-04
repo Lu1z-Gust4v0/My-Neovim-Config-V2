@@ -17,11 +17,11 @@ M.treesitter = {
     "markdown",
     "markdown_inline",
     "java",
-    "kotlin"
+    "kotlin",
   },
   ident = {
     enable = true,
-  }
+  },
 }
 
 M.mason = {
@@ -30,7 +30,7 @@ M.mason = {
     "stylua",
     "html-lsp",
     "css-lsp",
-    "prettier",
+    "prettierd",
     "eslint_d",
     "typescript-language-server",
     "svelte-language-server",
@@ -54,7 +54,7 @@ M.mason = {
     "jdtls",
     "kotlin-language-server",
     "ktlint",
-   }
+  },
 }
 
 return M
