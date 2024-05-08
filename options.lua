@@ -10,6 +10,7 @@ require "nvchad.options"
 
 -- Set tab size to 4 in java, c# files
 vim.api.nvim_create_autocmd({ "BufNewFile", "BufRead" }, {
-  pattern = { "*.java", "*.kt", "*.cs" },
+  group = vim.api.nvim_create_augroup("four_space_tab", { clear = true }),
+  pattern = { "*.java", "*.kt", "*.kts", "*.cs" },
   command = "setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4",
 })
